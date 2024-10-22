@@ -1,18 +1,3 @@
-const Headder = () => {
-  return (
-    <header>
-      <div>Logo</div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Profile</li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
-
 const Section = () => {
   return (
     <section>
@@ -44,24 +29,4 @@ const Section = () => {
   );
 };
 
-const Footer = () => {
-  return (
-    <footer>
-      <h2>OLLA</h2>
-      <span>&copy; All right reserved! 2024</span>
-    </footer>
-  );
-};
-
-const App = () => {
-  return (
-    <div>
-      <Headder />
-      <Section />
-      <Section />
-      <Footer />
-    </div>
-  );
-};
-
-export default App;
+export default Section;
