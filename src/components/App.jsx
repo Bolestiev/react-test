@@ -66,12 +66,6 @@ const App = () => {
       <List title="My films" data={filmsData} />
       <List title="Goods" data={goodsData} />
       <Modal title="Children how it works?">
-        <h2>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-          necessitatibus animi ea autem fugiat officiis veniam, voluptate earum
-          nemo ut fuga delectus debitis nisi quo reprehenderit ullam sunt
-          molestias temporibus!
-        </h2>
         <button>CLICK</button>
       </Modal>
       <Modal title="Login">
