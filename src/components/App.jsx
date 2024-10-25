@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import List from "./List/List";
 import Message from "./Message/Message";
 import Modal from "./Modal/Modal";
+import Phones from "./Phones/Phones";
 
 const App = () => {
   const isOnline = false;
@@ -49,8 +50,15 @@ const App = () => {
     { id: "3", name: "Canada", capital: "Ottawa" },
   ];
 
+  const phonesData = [
+    { id: "1", name: "Iphone", state: "USA" },
+    { id: "2", name: "Samsung", state: "Japan" },
+    { id: "3", name: "Redmi", state: "China" },
+  ];
+
   return (
     <div>
+      <Phones title="Phones List" data={phonesData} />
       <Header />
       {isOnline && <h1>Welcome back!</h1>}
       {isLoading && <h2>Loading...</h2>}
